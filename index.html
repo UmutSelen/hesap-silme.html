@@ -3,22 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hesap Silme - PHOBİA</title>
+  <title>Hesap Silme - PHOBIA</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: #14100c;
+      color: #e8e0d4;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+    .card {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #1f1913;
+      border: 1px solid #3a2f23;
+      border-radius: 12px;
+      padding: 32px 28px;
+    }
+    h1 { margin: 0 0 4px; font-size: 28px; color: #ffffff; }
+    .dev { margin: 0 0 24px; color: #9c8f7d; font-size: 15px; }
+    h2 {
+      font-size: 19px;
+      color: #7bd66f;
+      margin: 28px 0 8px;
+      border-bottom: 1px solid #3a2f23;
+      padding-bottom: 6px;
+    }
+    ol { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a.btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 20px;
+      background: #2e8b2e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    a.btn:hover { background: #38a338; }
+    .en { margin-top: 40px; padding-top: 8px; border-top: 2px solid #3a2f23; }
+  </style>
 </head>
 <body>
-  <h1>UYGULAMA ADI - Hesap ve Veri Silme</h1>
-  <p>Geliştirici: Umut Selen</p>
+  <div class="card">
+    <h1>PHOBIA</h1>
+    <p class="dev">Hesap ve Veri Silme · Geliştirici: Umut Selen</p>
 
-  <h2>Hesabınızı nasıl silersiniz?</h2>
-  <ol>
-    <li>Kayıtlı e-posta adresinizden sanugaemcompany@gmail.com adresine "Hesap silme talebi" konulu bir e-posta gönderin.</li>
-    <li>Talebiniz en geç 7 gün içinde işleme alınır ve size e-posta ile bildirilir.</li>
-  </ol>
+    <h2>Hesabınızı nasıl silersiniz?</h2>
+    <ol>
+      <li>Kayıtlı e-posta adresinizden <strong>sanugaemcompany@gmail.com</strong> adresine "Hesap silme talebi" konulu bir e-posta gönderin.</li>
+      <li>Talebiniz en geç 7 gün içinde işleme alınır ve size e-posta ile bildirilir.</li>
+    </ol>
+    <a class="btn" href="mailto:sanugaemcompany@gmail.com?subject=Hesap%20silme%20talebi">Silme talebi gönder</a>
 
-  <h2>Silinen veriler</h2>
-  <p>E-posta adresi, kullanıcı adı, puanlar, profil resmi seçimi ve oyun ilerlemesi kalıcı olarak silinir.</p>
+    <h2>Silinen veriler</h2>
+    <p>E-posta adresi, kullanıcı adı, puanlar, profil resmi seçimi ve oyun ilerlemesi kalıcı olarak silinir.</p>
 
-  <h2>Saklanan veriler</h2>
-  <p>Ek olarak saklanan veri yoktur.</p>
+    <h2>Saklanan veriler</h2>
+    <p>Ek olarak saklanan veri yoktur.</p>
+
+    <div class="en">
+      <h1>PHOBIA</h1>
+      <p class="dev">Account and Data Deletion · Developer: Umut Selen</p>
+
+      <h2>How to delete your account</h2>
+      <ol>
+        <li>Send an email from your registered email address to <strong>sanugaemcompany@gmail.com</strong> with the subject "Account deletion request".</li>
+        <li>Your request will be processed within 7 days and you will be notified by email.</li>
+      </ol>
+      <a class="btn" href="mailto:sanugaemcompany@gmail.com?subject=Account%20deletion%20request">Send deletion request</a>
+
+      <h2>Data deleted</h2>
+      <p>Your email address, username, scores, profile picture selection and game progress are permanently deleted.</p>
+
+      <h2>Data retained</h2>
+      <p>No additional data is retained.</p>
+    </div>
+  </div>
 </body>
 </html>
