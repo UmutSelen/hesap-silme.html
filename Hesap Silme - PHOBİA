@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hesap Silme - PHOBİA</title>
+</head>
+<body>
+  <h1>UYGULAMA ADI - Hesap ve Veri Silme</h1>
+  <p>Geliştirici: Umut Selen</p>
+
+  <h2>Hesabınızı nasıl silersiniz?</h2>
+  <ol>
+    <li>Kayıtlı e-posta adresinizden sanugaemcompany@gmail.com adresine "Hesap silme talebi" konulu bir e-posta gönderin.</li>
+    <li>Talebiniz en geç 7 gün içinde işleme alınır ve size e-posta ile bildirilir.</li>
+  </ol>
+
+  <h2>Silinen veriler</h2>
+  <p>E-posta adresi, kullanıcı adı, puanlar, profil resmi seçimi ve oyun ilerlemesi kalıcı olarak silinir.</p>
+
+  <h2>Saklanan veriler</h2>
+  <p>Ek olarak saklanan veri yoktur.</p>
+</body>
+</html>
